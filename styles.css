@@ -3,28 +3,68 @@ body {
     font-family: sans-serif;
     margin: 0;
     color: #FEAE80;
+    width: 100%;
 }
 
 
 #header-container {
     width: 25%;
     height: 70px;
-
-    background-color: black;
-
-    text-align: center;
-
-
+    background-color: #F7E3D2;
+    justify-content: center;
+    display: flex;
+    align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-
     border-radius: 25px;
-
 }
 
 #header-text {
     margin: 0%;
     
+}
+
+.submit-input {
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    background-color: #F7E3D2;
+    border-radius: 20px;
+    border: none;
+    color: #FEAE80;
+}
+
+fieldset {
+    border-radius: 20px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+u {
+    text-decoration-color: #ff0000;
+    text-decoration-thickness: 2px;
+}
+
+#content {
+    text-align: center;
+}
+
+#semi-heading {
+
+}
+
+hr {
+    width: 65%;
+    height: 2px;
+    background-color: #FEAE80;
+    border: none;
+}
+
+.input-heading {
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
